@@ -1,0 +1,259 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b0712">
+  <meta name="description" content="Portfolio pribadi dan perjalanan kreatif saya.">
+  <title>My Portfolio | Creative Developer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="background-glow glow-one"></div>
+  <div class="background-glow glow-two"></div>
+
+  <header class="navbar glass">
+    <a href="#home" class="logo">
+      <span class="logo-icon">&lt;/&gt;</span>
+      <span>my<span class="purple">folio</span></span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle"
+      aria-label="Buka menu" aria-expanded="false">☰</button>
+
+    <nav id="navMenu">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#contact" class="nav-link">Contact</a>
+      <button id="themeToggle" class="theme-btn" aria-label="Ganti tema">☀</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-content reveal">
+        <div class="status">
+          <span class="status-dot"></span>
+          Sedang belajar dan berkarya
+        </div>
+
+        <p class="eyebrow">HELLO, WORLD! I'M</p>
+        <h1>Nadya <span class="gradient-text">.</span></h1>
+
+        <h2>I'm a <span id="typingText">Creative Developer</span><span class="cursor">|</span></h2>
+
+        <p class="hero-description">
+          Aku suka mengeksplorasi teknologi, membuat desain menarik,
+          dan mengubah ide sederhana menjadi karya digital.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">Lihat Proyek ↗</a>
+          <a href="#about" class="btn btn-glass">Tentang Saya</a>
+        </div>
+
+        <div class="social-links">
+          <a href="#contact" aria-label="Kontak">✉</a>
+          <a href="#projects" aria-label="Proyek">⌘</a>
+          <a href="#skills" aria-label="Keahlian">✳</a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+
+        <div class="profile-card glass">
+          <div class="profile-top">
+            <span class="window-dots">● ● ●</span>
+            <span>MY PROFILE</span>
+          </div>
+
+          <div class="avatar">
+            <span>&lt;/&gt;</span>
+          </div>
+
+          <h3>Creative Mind</h3>
+          <p>Code · Design · Create</p>
+
+          <div class="mini-stats">
+            <div><strong>03+</strong><span>Projects</span></div>
+            <div><strong>100%</strong><span>Passion</span></div>
+          </div>
+        </div>
+
+        <div class="floating-tag tag-top glass">✦ Creativity</div>
+        <div class="floating-tag tag-bottom glass">⌘ Developer</div>
+      </div>
+    </section>
+
+    <section id="about" class="section reveal">
+      <div class="section-heading">
+        <p class="eyebrow">GET TO KNOW ME</p>
+        <h2>About <span class="gradient-text">Me</span></h2>
+        <p>Sedikit cerita tentang diriku.</p>
+      </div>
+
+      <div class="about-card glass">
+        <div class="about-symbol">&lt;/&gt;</div>
+        <div>
+          <h3>Penganut sekte IPM 💀 & Digital Explorer</h3>
+          <p>
+            Halo! Aku seorang pelajar yang tertarik dengan dunia desain website. aku sek sinau rek, sek iso tipis-tipis aku vibecodder soale 🤤
+          </p>
+          <p>
+            Bagiku, setiap error adalah masalah besar, lebih besar dari tt mu.
+          </p>
+          <a href="#contact" class="text-link">Mari terhubung ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section reveal">
+      <div class="section-heading">
+        <p class="eyebrow">WHAT I LEARN</p>
+        <h2>My <span class="gradient-text">Skills</span></h2>
+        <p>Teknologi yang sedang kupelajari sedikit..</p>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card glass">
+          <div class="skill-icon orange">5</div>
+          <h3>HTML</h3>
+          <p>Menyusun struktur halaman website.</p>
+          <div class="skill-bar"><span style="--level:7%"></span></div>
+        </article>
+
+        <article class="skill-card glass">
+          <div class="skill-icon blue">#</div>
+          <h3>CSS</h3>
+          <p>Mengatur tampilan dan desain website.</p>
+          <div class="skill-bar"><span style="--level:3%"></span></div>
+        </article>
+
+        <article class="skill-card glass">
+          <div class="skill-icon yellow">JS</div>
+          <h3>JavaScript</h3>
+          <p>Membuat website lebih interaktif.</p>
+          <div class="skill-bar"><span style="--level:5%"></span></div>
+        </article>
+
+        <article class="skill-card glass">
+          <div class="skill-icon purple">✦</div>
+          <h3>UI Design</h3>
+          <p>Mengeksplorasi desain digital yang menarik.</p>
+          <div class="skill-bar"><span style="--level:15%"></span></div>
+        </article>
+      </div>
+      <p class="small-note">*iki mek presentase ku, IMO yo anj.</p>
+    </section>
+
+    <section id="projects" class="section reveal">
+      <div class="section-heading">
+        <p class="eyebrow">MY CREATIONS</p>
+        <h2>Featured <span class="gradient-text">Projects</span></h2>
+        <p>Beberapa karya yang bisa kamu tampilkan.</p>
+      </div>
+
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">Semua</button>
+        <button class="filter-btn" data-filter="web">Website</button>
+        <button class="filter-btn" data-filter="design">Desain</button>
+        <button class="filter-btn" data-filter="other">Lainnya</button>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card glass" data-category="web">
+          <div class="project-preview preview-one">
+            <span>&lt;/&gt;</span>
+          </div>
+          <div class="project-info">
+            <span class="project-type">WEBSITE</span>
+            <h3>Personal Portfolio</h3>
+            <p>Website pribadi dengan desain glassmorphism.</p>
+            <a href="#contact" class="text-link">Lihat detail ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card glass" data-category="web">
+          <div class="project-preview preview-two">
+            <span>SHOP ✦</span>
+          </div>
+          <div class="project-info">
+            <span class="project-type">WEBSITE</span>
+            <h3>Online Store</h3>
+            <p>Konsep toko online dengan tampilan modern.</p>
+            <a href="#contact" class="text-link">Lihat detail ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card glass" data-category="design">
+          <div class="project-preview preview-three">
+            <span>✧ DESIGN ✧</span>
+          </div>
+          <div class="project-info">
+            <span class="project-type">DESAIN</span>
+            <h3>UI Exploration</h3>
+            <p>Eksperimen visual dengan warna dan efek kaca.</p>
+            <a href="#contact" class="text-link">Lihat detail ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card glass" data-category="other">
+          <div class="project-preview preview-four">
+            <span>0101</span>
+          </div>
+          <div class="project-info">
+            <span class="project-type">LAINNYA</span>
+            <h3>Mini Experiments</h3>
+            <p>Eksperimen kecil untuk belajar pemrograman.</p>
+            <a href="#contact" class="text-link">Lihat detail ↗</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section reveal">
+      <div class="contact-card glass">
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h2>Punya ide <span class="gradient-text">menarik?</span></h2>
+        <p>
+          wa en aku ae, tak kei saham about html, css, karo js. tak kei tipis-tipis.
+        </p>
+
+        <form id="contactForm">
+          <label for="senderNamesander"<>jeneng mu</label>
+          <input id="senderName" type="text" placeholder="Masukkan nama" required>
+
+          <label for="senderEmail">Email mu</label>
+          <input id="senderEmail" type="email" placeholder="nama@email.com" required>
+
+          <label for="senderMessage">opo pesan e?</label>
+          <textarea id="senderMessage" rows="4" placeholder="Tulis pesanmu..." required></textarea>
+
+          <button class="btn btn-primary submit-btn" type="submit">
+            Kirim lewat Email ↗
+          </button>
+        </form>
+        <p class="small-note">Tombol ini membuka aplikasi email di perangkatmu.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a href="#home" class="logo">
+      <span class="logo-icon">&lt;/&gt;</span> my<span class="purple">folio</span>
+    </a>
+    <p>Dibuat dengan rasa ingin tahu dan sedikit kode. 💜</p>
+    <p>© <span id="currentYear"></span> Nama Kamu</p>
+  </footer>
+
+  <button id="backToTop" aria-label="Kembali ke atas">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
